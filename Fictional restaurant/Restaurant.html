@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Delicious Bites</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Restaurant.css">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Delicious Bites</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center justify-content-center">
+        <div>
+            <h1>Welcome to Delicious Bites</h1>
+            <button class="btn btn-dark">Explore Menu</button>
+        </div>
+    </section>
+    
+    <!-- Menu Section -->
+    <section id="menu" class="menu py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">Our Menu</h2>
+            <div class="row my-2">
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="https://images.unsplash.com/photo-1566843972705-1aad0ee32f88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Pizza">
+                        <h4 class="my-3">Margherita Pizza</h4>
+                        <p>Classic cheese pizza with fresh basil.</p>
+                        <p><strong>$12.99</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="https://images.unsplash.com/photo-1625683257212-116d74981941?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Burger">
+                        <h4 class="my-3">Juicy Burger</h4>
+                        <p>Grilled beef patty with fresh toppings.</p>
+                        <p><strong>$9.99</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="https://images.unsplash.com/photo-1585675619642-45a058cdb302?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Pasta">
+                        <h4 class="my-3">Creamy Pasta</h4>
+                        <p>Pasta tossed in a creamy Alfredo sauce.</p>
+                        <p><strong>$11.99</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Us Section -->
+    <section id="about" class="about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="Restaurant">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mt-4 pb-2">About Us</h2>
+                    <p>Welcome to Delicious Bites, where we serve fresh and tasty meals crafted with love. Our chefs use only the finest ingredients to bring you an unforgettable dining experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form class="mx-auto" style="max-width: 500px;">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name">
+                    <label for="floatingInput">Name</label>
+                </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="yourname123@gmail.com">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="4" required></textarea>
+                    </div>
+                <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Delicious Bites | 
+            Follow us on <a href="#" class="text-white"><i class="fa-brands fa-whatsapp mx-1"></i></a>
+                         <a href="#" class="text-white"><i class="fa-brands fa-telegram mx-1"></i></a>
+                         <a href="#" class="text-white"><i class="fa-brands fa-twitter mx-1"></i></a>
+        </p>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

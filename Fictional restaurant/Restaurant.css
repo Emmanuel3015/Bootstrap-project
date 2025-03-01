@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: #000;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1432139555190-58524dae6a55?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Source Code Pro", monospace;
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu .row {
+    justify-content: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* About Us */
+.about {
+    padding: 50px 20px;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fa-whatsapp:hover{
+    color: #25d366;
+}
+
+.fa-telegram:hover{
+    color: #0088cc;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+

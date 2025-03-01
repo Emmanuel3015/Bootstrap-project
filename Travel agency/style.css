@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: #000;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1624493176575-7a5a3b74460a?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Source Code Pro", monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+div h1{
+    font-size: 4rem;
+}
+
+
+
+/* Destination Section */
+.destination {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.destination .row {
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body{
+    text-align: left;
+}
+
+
+
+/* Tours Section */
+.about {
+    padding: 50px 20px;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Hovering effects */
+.fa-whatsapp:hover{
+    color: #25d366;
+}
+
+.fa-telegram:hover{
+    color: #0088cc;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.container button:hover{
+    background-color: #d96719;
+}
+
+.btn:hover{
+    background-color: #d96719;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #d96719;
+}
